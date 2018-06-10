@@ -19,7 +19,7 @@ describe('api.github.com', () => {
       })
   })
 
-  it('paginate using ayncIterator', async () => {
+  it('paginate using ayncIterator', () => {
     const options = {
       owner: 'octokit-fixture-org',
       repo: 'paginate-issues',
